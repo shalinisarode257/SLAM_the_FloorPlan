@@ -1,4 +1,4 @@
-# Floorplan Generation from SLAM outputs
+# Floorplan Generation from SLAM output
 
 This project generates vector (SVG) and raster (PNG) floorplans from the SLAM outputs in PGM (Portable Graymap) format, typically used in robotics and mapping applications. It first processes the maps, cleans any noise, detects walls using Hough Line Transform, merges collinear lines, and outputs the result.
 
@@ -102,6 +102,15 @@ SVG_STROKE_WIDTH: "2"
 ### Output Styling:
 - `WALL_COLOR_BGR`, `BACKGROUND_COLOR_BGR`, `WALL_THICKNESS_PX`: Styling for the raster output.
 - `SVG_WALL_COLOR`, `SVG_STROKE_WIDTH`: Styling for the vector output.
+
+## Future Work
+
+- **Improved Corner Detection:** Implement more robust corner detection algorithms to create more accurate and visually appealing floorplans.
+- **Door and Window Detection:** Add functionality to detect and represent doors and windows in the generated floorplans.
+- **Object Recognition:** Integrate object recognition to identify and label furniture or other objects in the map.
+- **Performance Optimization:** Optimize the image processing and line detection algorithms for faster processing, especially for large maps.
+- **Interactive Editing:** Develop a user interface for interactive editing of the generated floorplans, allowing users to correct errors or add annotations.
+- **Support for other Map formats:** Extend support to other map formats, for example costmaps.
 
 
 ## License
