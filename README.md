@@ -111,6 +111,7 @@ SVG_STROKE_WIDTH: "2"
 - **Performance Optimization:** Optimize the image processing and line detection algorithms for faster processing, especially for large maps.
 - **Interactive Editing:** Develop a user interface for interactive editing of the generated floorplans, allowing users to correct errors or add annotations.
 - **Support for other Map formats:** Extend support to other map formats, for example costmaps.
+- **Integration of Deep Learning Techniques:** Explore and integrate deep learning models for improved wall detection, line merging, and overall floorplan generation accuracy and robustness.
 
 
 ## License
